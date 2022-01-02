@@ -394,7 +394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('ഈ ബോട്ടിലേക്ക് പോകുക, നിങ്ങൾക്ക് മൂവി ഫയൽ കാണാനും ഡൗൺലോഡ് ചെയ്യാനും കഴിയും /n/n Check This Bot PM',show_alert = True)
+                await query.answer('ഈ ബോട്ടിലേക്ക് പോകുക, നിങ്ങൾക്ക് മൂവി ഫയൽ കാണാനും ഡൗൺലോഡ് ചെയ്യാനും കഴിയും /n  Check This Bot PM',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
